@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--JS: jQuery, Popper.js, Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="contact.js"></script>
+
+    <title>Companions of the Loaf</title>
+
+    <!--bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--fondamento googlefont-->
+    <link href="https://fonts.googleapis.com/css?family=Fondamento&display=swap" rel="stylesheet">
+    <!--Almendra googlefont-->
+    <link href="https://fonts.googleapis.com/css?family=Almendra&display=swap" rel="stylesheet">
+  </head>
+
+  <!--Main Content-->
+  <body>
+    <!--Toggle button-->
+    <div id="main">
+      <div class="outerMenu">
+        <div class="menubtn">
+          <button class="openbtn btn btn-default" onclick="toggleNav()">&#9776;</button>
+        </div>
+      </div>
+    </div>
+
+
+    <header>
+      <div class="landing jumbotron jumbotron-fluid row">
+      	<!--parallax scroll images-->
+      </div>
+      <div class="title">
+        <h1>Companions of the Loaf</h1>
+      </div>
+    </header>
+
+
+    <!--collapsible navbar-->
+    <nav>
+    	<!--collapsible fixed sidebar (mobile-friendly)-->
+      <div id="leftNavPanel" class="sidebar panel panel-default">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Team</a>
+        <a href="#">Shop</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+
+    <section>
+      <div class="intro">
+        <h3>15th century reenactment group</h3>        
+        <div class="titledesc">
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="about">
+        <div class="abouttxt col-lg-6">
+          <h3>About</h3>
+        	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        </div>
+        <div class="moreabout col-lg-6">
+          <button class="aboutbtn btn btn-default">Learn More!</button>
+        </div>
+      </div>
+
+      <div class="team">
+        <div class="col-lg-12">
+          <h3>The Companions</h3>
+        </div>
+        <div class="companions col-lg-12">
+          <!--FUTURE FEATURE: add horizontal scrolling for small screens or more members-->
+          <div class="member">
+          </div>
+          <div class="member">
+          </div>
+          <div class="member">
+          </div>
+        </div>
+      </div>
+
+      
+      <!---Carousel Shop--->
+      <div class="shop">
+        <div class="shopContainer">
+          <h3>Market</h3>
+          <div id="shopCarousel" class="carousel slide col-lg-12" data-ride="carousel">
+            <!--Carousel position indicators: UPDATE ALONG WITH NEW SLIDES-->
+            <ol class="carousel-indicators">
+              <li data-target="#shopCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#shopCarousel" data-slide-to="1"></li>
+              <li data-target="#shopCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!--Carousel Slides: UPDATE ALONG WITH INDICATORS-->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/50-19.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                  <h4>Product A</h4>
+                  <p>Description of Product A</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/50-19.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                  <h4>Product A</h4>
+                  <p>Description of Product B</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/50-19.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                  <h4>Product A</h4>
+                  <p>Description of Product C</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#shopCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#shopCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+
+      <!--
+        ORIGINAL SHOP W STATIC ELEMENTS
+      <div class="shop">
+        <div class="col-lg-12">
+          <h3>Market</h3>
+        </div>
+        <div class="prodType">
+          <h4>Product A</h4>
+        </div>
+        <div class="prodType">
+          <h4>Product B</h4>
+        </div>
+        <div class="prodType">
+          <h4>Product C</h4>
+        </div>
+      </div>
+    -->
+
+      <div class="contact">
+        <h3>Contact</h3>
+        <form id="contact-form" method="post" action="contact.php" role="form">
+            <div class="messages">
+              <!--Empty div will display success/error messages from AJAX call-->
+            </div>
+            <div class="controls">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_name">Firstname *</label>
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required" data-error="Name is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_lastname">Lastname *</label>
+                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your surname *" required="required" data-error="Surname is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_email">Email *</label>
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_need">What brings you here?</label>
+                            <select id="form_need" name="need" class="form-control">
+                                <option value=""></option>
+                                <option value="Exhibition Requests">Exhibition Requests</option>
+                                <option value="Information">Information</option>
+                                <option value="Market inquiries">Market Inquiries</option>
+                                <option value="Becoming a Companion">Becoming a Companion</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_message">Message *</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Is that fire real? *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                    </div>
+                </div>
+            </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+    	<!--contact, images/team, about, shop-->
+      This is just a footer. It has no real content yet.
+      <br>
+      Here are examples of things that might be here later:
+      <a>About</a>
+      <a>Team</a>
+      <a>Shop</a>
+      <a>Contact</a>
+    </footer>
+  </body>
+
+  <!--TO BE MOVED TO SEPARATE CSS FILE-->
+  <style>
+    header {
+      background: black;
+      overflow: hidden;
+    }
+    /*LANDING IMAGE*/
+    .landing.jumbotron {
+      position: relative;
+      background: url("./images/50-19.jpg");
+      background-size: cover;
+      opacity: 0.4;
+      max-width: 100%;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+    }
+
+    .title {
+      position: absolute;
+      width: 100%;
+      bottom: 20%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .title h1 {
+      color: white;
+      font-family: 'Almendra', serif;
+      font-size: 60px;
+      margin: 0;
+    }
+
+    .intro {
+      background-color: #07631A;
+      text-align: center;
+      padding-top: 15px;
+    }
+
+    .intro h3 {
+      color: white;
+      font-family: "Fondamento", cursive;
+    }
+
+    .titledesc p {
+      color: white;
+      font-family: "Fondamento", cursive;
+      margin: 0;
+      padding: 0 15px 10px 15px;
+    }
+
+    /* --SIDEBAR MENU-- */
+    .sidebar {
+      height: 100%;
+      width: 250px;
+      display: none;
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Stay on top */
+      top: 0;
+      left: 0;
+      background-color: #111; /* Black*/
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 60px; /* Place content 60px from the top */
+    }
+
+    /* The sidebar links */
+    .sidebar a {
+      padding: 8px 8px 8px 32px;
+      margin-right: 15px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidebar a:hover {
+      color: #f1f1f1;
+    }
+
+    /* Position and style the close button (top right corner) */
+    .sidebar .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    #main {
+      position: fixed;
+      top: 20px;
+      z-index: 1;
+    }
+
+    .outerMenu {
+      position: -webkit-sticky; /*safari*/
+      position: sticky;
+    }
+
+    /* --SIDEBAR OPEN BUTTON-- */
+    .openbtn {
+      background-color: #f1f1f1;
+      opacity: 60%;
+      font-size: 20px;
+      cursor: pointer;
+      padding: 10px 15px;
+      border: none;
+      margin-left: 15px;
+    }
+
+    .openbtn:hover {
+      opacity: 100%;
+      transition: opacity 0.5s;
+    }
+
+    .openbtn:focus {
+      outline: none;
+    }
+
+    /*--CONTENT SECTIONS--*/
+    .about {
+      display: flex;
+      padding: 0;
+      background-color: #07631A;
+      color: white;
+      font-family: "Fondamento", cursive;
+      /*angled bottom edge*/
+      -webkit-clip-path:polygon(0 0, 100% 100% 0, 100% 100%, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+      /*for testing
+      border: 1px solid black;*/
+    }
+
+    .abouttxt{
+      text-align: center;
+      padding: 10px 25px 20px 25px;
+    }
+
+    .moreabout {
+      align-items: stretch;
+      background-size: cover;
+      background: url("./images/50-19.jpg");
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /*angled left edge*/
+      -webkit-clip-path:polygon(0 0, 100% 100% 0, 100% 100%, 0 100%);
+      clip-path: polygon(10% 0, 100% 0, 100% 90%, 0 100%);
+    }
+
+    .aboutbtn {
+      background-color: #f1f1f1;
+      color: grey;
+    }
+
+    .team {
+      padding: 30px 15px;
+      text-align: center;
+      font-family: "Fondamento", cursive;
+    }
+
+    .companions {
+      list-style: none;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      padding: 10px 0 0 0;
+      /*for testing
+      border: 1px solid black;*/
+    }
+
+    .member{
+      border: 1px dashed navy;
+      margin: 10px;
+      width: 150px;
+      height: 150px;
+    }
+
+    .shop {
+      list-style: none;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      padding: 30px 0;
+      text-align: center;
+      background-color: #07631A;
+      color: white;
+      font-family: "Fondamento", cursive;
+      /*angled bottom edge*/
+      -webkit-clip-path:polygon(0 0, 100% 100% 0, 100% 100%, 0 100%);
+      clip-path: polygon(0 10%, 100% 0, 100% 95%, 0 100%);
+      /*for testing
+      border: 1px solid black;*/
+    }
+
+    .shopContainer {
+      padding-top: 20px;
+      padding-bottom: 30px;
+    }
+
+    .carousel {
+      padding: 0;
+    }
+
+    .carousel-inner {
+      max-width: 100%;
+    }
+
+    .prodType{
+      color: white;
+      /*background: url("./images/50-19.jpg");
+      background-size: cover;*/
+      height: 150px;
+    }
+
+    .contact {
+      padding: 10px 15px;
+      /*for testing
+      border: 1px solid black;*/
+    }
+
+    .contact h3 {
+      text-align: center;
+      font-family: "Fondamento", cursive;
+    }
+
+    footer {
+      background-color: #545454;
+      color: white;
+      text-align: center;
+      padding-top: 5px;
+      border-top: 3px double white;
+    }
+
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    /*#main {
+      transition: margin-left .5s;
+      padding: 20px;
+    }*/
+
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    @media screen and (max-height: 450px) {
+      .sidebar {padding-top: 15px;}
+      .sidebar a {font-size: 18px;}
+    }
+  </style>
+</html>
