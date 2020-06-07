@@ -1,0 +1,401 @@
+
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: 'Fondamento';
+}
+
+/* --SIDEBAR MENU-- */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    background-color: #111;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    left: -250px;
+    transition: left 0.5s; /* Transition 'left' value to -250px if not */
+    -webkit-transition: left 0.5s; /* Webkit version of above */
+}
+
+.sidebar--shown {
+   left: 0;
+   transition: left 0.5s; /* Transition 'left' value to 0px if not */
+   -webkit-transition: left 0.5s; /* Webkit version of above */
+   z-index: 2;
+}
+
+/* The sidebar links */
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    position: fixed;
+    margin-top: 2rem;
+    z-index: 2;
+}
+
+.outerMenu {
+    position: -webkit-sticky;
+    /*safari*/
+    position: sticky;
+}
+
+/* --SIDEBAR OPEN BUTTON-- */
+.openbtn {
+    background-color: #f1f1f1;
+    opacity: 60%;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    margin-left: 15px;
+}
+
+.openbtn:hover {
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.openbtn:focus {
+    outline: none;
+}
+
+#logo-title {
+    margin-top: 2rem;
+    text-align: center;
+    z-index: 5;
+}
+
+#logo {
+    position: relative;
+    background-image: url('../images/cotl-achievement.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 8rem;
+    width: 8rem;
+    margin: auto;
+    z-index: 5;
+}
+
+#title {
+    position: relative;
+    width: 100%;
+    bottom: 20%;;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+}
+
+#title h1 {
+    color: black;
+    font-family: 'Fondamento', serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.initial {
+    color: #b30000;
+}
+
+/* --PARALLAX SCROLL --*/
+.small-banner {
+    background-image: url('../images/parallax/parallax-full.svg');
+    display: none;
+    /*change parallax image to static image below 656x768px*/
+}
+
+.parallax-container {
+    position: fixed;
+    overflow: visible;
+    width: 100%;
+    height: 100vh;
+}
+
+.parallax-layer {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: 100%;
+}
+
+.layer-0 {
+    /* top: 0; */
+    z-index: 1;
+    background-image: url('../images/parallax/background-1.svg');
+    }
+.layer-1 {
+    /* top: -100px; */
+    z-index: 2;
+    background-image: url('../images/parallax/background-2-cathedral.svg');
+    }
+.layer-2 {
+    /* top: -50px; */
+    z-index: 3;
+    background-image: url('../images/parallax/background-3.svg');
+    }
+.layer-3 {
+    /* top: -10px; */
+    z-index: 4;
+    background-image: url('../images/parallax/background-4-castle.svg');
+    }
+.layer-4 {
+    /* top: 65px; */
+    z-index: 5;
+    background-image: url('../images/parallax/background-5-hill.svg');
+    }
+.layer-5 {
+    /* top: 65px; */
+    z-index: 6;
+    background-image: url('../images/parallax/foreground-1-hills.svg');
+    }
+.layer-6 {
+    /* top: 150px; */
+    z-index: 7;
+    background-image: url('../images/parallax/foreground-2-chapel.svg');
+    }
+.layer-7 {
+    /* top: 150px; */
+    z-index: 8;
+    background-image: url('../images/parallax/foreground-3.svg');
+}
+
+.content {
+    position: absolute;
+    padding-top: 2rem;
+    top: 500px;
+    background: #415a6c;
+    width: 100%;
+    min-height: 1500px;
+}
+.content h1 {
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    padding-top: 2rem;
+    background-color: #415a6c;
+    color: white;
+    font-family: "Fondamento", serif;
+    /*angled bottom edge*/
+    -webkit-clip-path: polygon(0 0, 100% 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    /*for testing
+    border: 1px solid black;*/
+}
+
+.abouttxt {
+    text-align: center;
+    padding: 10px 25px 20px 25px;
+}
+
+.moreabout {
+    align-items: stretch;
+    background-size: cover;
+    background: url("../images/50-19.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*angled left edge*/
+    -webkit-clip-path: polygon(0 0, 100% 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.aboutbtn {
+    background-color: #f1f1f1;
+    color: grey;
+}
+
+/* .team {
+    background-color: #f1f1f1;
+    padding: 30px 15px;
+    text-align: center;
+    font-family: "Fondamento", serif;
+}
+
+.companions {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: auto;
+    padding: 10px 0 0 0;
+}
+
+.member {
+    border: 1px dashed navy;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+} */
+
+.team {
+    background-color: #f1f1f1;
+    min-height: 500px;
+    padding-top: 2rem;
+    font-family: "Fondamento", serif;
+    text-align: center;
+}
+
+#team-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    min-height: 500px;
+}
+
+#market {
+    min-height: 500px;
+    padding-top: 2rem;
+    font-family: "Fondamento", serif;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+#market-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    min-height: 500px;
+}
+
+.box {
+    border: 1px dashed navy;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    transition: 0.5s;
+}
+
+.box:hover {
+    height: 400px;
+}
+
+.box .img-box {
+    border: 1px dashed navy;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.box .img-box img {
+    max-width: 100%;
+    opacity: 0.1;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.box:hover .img-box img {
+    opacity: 1;
+}
+
+.box:before {
+    /* content: ''; */
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    background: #fff;
+    z-index: -1;
+}
+
+.box:after {
+    /* content: ''; */
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+
+.contact {
+    background-color: #415a6c;
+    padding: 10px 15px;
+    /*for testing
+    border: 1px solid black;*/
+}
+
+.contact h3 {
+    text-align: center;
+    color: #f1f1f1;
+    font-family: "Fondamento", serif;
+}
+
+.form-group label {
+    color: #f1f1f1;
+}
+
+footer {
+    background-color: #545454;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    border-top: 3px double #415a6c;
+}
+
+@media screen and (max-width: 656px) {
+    .small-banner {
+        display: block;
+        position: fixed;
+        overflow: visible;
+        width: 100%;
+        height: 100vh;
+    }
+    .parallax-layer {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 450px) {
+      .sidebar {
+          padding-top: 15px;
+      }
+
+      .sidebar a {
+          font-size: 18px;
+      }
+  }

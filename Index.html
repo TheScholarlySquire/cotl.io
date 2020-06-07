@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!--JS: jQuery, Popper.js, Bootstrap JS-->
+        <script src="scripts/jquery-3.4.1.min.js"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="scripts/contact.js"></script>
+
+        <title>Companions of the Loaf</title>
+
+        <!--bootstrap CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!--fondamento googlefont-->
+        <link href="https://fonts.googleapis.com/css?family=Fondamento&display=swap" rel="stylesheet">
+        <!--Almendra googlefont-->
+        <link href="https://fonts.googleapis.com/css?family=Almendra&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+
+    <!--Toggle button-->
+    <header>
+        <div class="parallax-container">
+            <div class="small-banner"></div>
+            <div class="parallax-layer layer-0" data-parallax-speed="0.05" data-max-scroll="565"></div>
+            <div class="parallax-layer layer-1" data-parallax-speed="0.1" data-max-scroll="565"></div>
+            <div class="parallax-layer layer-2" data-parallax-speed="0.3" data-max-scroll="565"></div>
+            <div class="parallax-layer layer-3" data-parallax-speed="0.5" data-max-scroll="565"></div>
+            <div class="parallax-layer layer-4" data-parallax-speed="0.7" data-max-scroll="565"></div>
+            <div class="parallax-layer layer-5" data-parallax-speed="0.9" data-max-scroll="565"></div>
+            <div class="parallax-layer layer-6" data-parallax-speed="1.125" data-max-scroll="565"></div>
+            <div class="parallax-layer layer-7" data-parallax-speed="1.13" data-max-scroll="565"></div>
+            <div id="logo-title">
+                <div id="logo"></div>
+                <div id="title">
+                    <h1>
+                        <span class="initial">C</span>ompanions of the
+                        <span class="initial">L</span>oaf
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <section>
+            <div id="main">
+              <div class="outerMenu">
+                <div class="menubtn">
+                  <button class="openbtn btn btn-default">&#9776;</button>
+                  <!-- <button class="openbtn btn btn-default" onclick="toggleNav()">&#9776;</button> -->
+                </div>
+              </div>
+            </div>
+            <!--collapsible navbar-->
+            <nav>
+              <!--collapsible fixed sidebar (mobile-friendly)-->
+                <div id="leftNavPanel" class="sidebar panel panel-default">
+                    <a href="javascript:void(0)" class="closebtn">&times;</a>
+                    <a href="#">About</a>
+                    <a href="#">Team</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+        </section>
+
+        <div class="content">
+            <h1>faber est quisque fortunae suae</h1>
+            <div class="about">
+                <div class="abouttxt col-lg-6">
+                    <h3>About</h3>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </div>
+                <div class="moreabout col-lg-6">
+                    <button class="aboutbtn btn btn-default">Learn More!</button>
+                </div>
+            </div>
+
+            <div class="team">
+                <h3>The Companions</h3>
+                <div id="team-container">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="./images/companions/Max.jpg">
+                        </div>
+                        <div id="maxim_n" class="box-content">
+                            <h2>Max<br><span>Title/Role</span></h2>
+                        </div>
+                    </div>
+                    <div id="nick_z" class="box">
+                        <div class="img-box">
+                            <img src="./images/companions/Nick.jpg">
+                        </div>
+                        <div class="box-content">
+                            <h2>Nick<br><span>Title/Role</span></h2>
+                        </div>
+                    </div>
+                    <div id="gabe_g" class="box">
+                        <div class="img-box">
+                            <img src="./images/companions/Gabe.png">
+                        </div>
+                        <div class="box-content">
+                            <h2>Gabe<br><span>Title/Role</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="companions col-lg-10">
+                    <div class="member"></div>
+                    <div class="member"></div>
+                    <div class="member"></div>
+                </div> -->
+            </div>
+
+            <div id="market" class="col-lg-12">
+                <h3>Market</h3>
+                <div id="market-container">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="#">
+                        </div>
+                        <div class="box-content">
+                            <h2>Name Surname<br><span>Title/Role</span></h2>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="#">
+                        </div>
+                        <div class="box-content">
+                            <h2>Name Surname<br><span>Title/Role</span></h2>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="#">
+                        </div>
+                        <div class="box-content">
+                            <h2>Name Surname<br><span>Title/Role</span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact">
+              <h3>Contact</h3>
+              <form id="contact-form" method="post" action="contact.php" role="form">
+                  <div class="messages">
+                    <!--Empty div will display success/error messages from AJAX call-->
+                  </div>
+                  <div class="controls">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="form-group">
+                                  <label for="form_name">Firstname *</label>
+                                  <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required" data-error="Name is required.">
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="form-group">
+                                  <label for="form_lastname">Lastname *</label>
+                                  <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your surname *" required="required" data-error="Surname is required.">
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="form-group">
+                                  <label for="form_email">Email *</label>
+                                  <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="form-group">
+                                  <label for="form_need">What brings you here?</label>
+                                  <select id="form_need" name="need" class="form-control">
+                                      <option value=""></option>
+                                      <option value="Exhibition Requests">Exhibition Requests</option>
+                                      <option value="Information">Information</option>
+                                      <option value="Market inquiries">Market Inquiries</option>
+                                      <option value="Becoming a Companion">Becoming a Companion</option>
+                                      <option value="Other">Other</option>
+                                  </select>
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-12">
+                              <div class="form-group">
+                                  <label for="form_message">Message *</label>
+                                  <textarea id="form_message" name="message" class="form-control" placeholder="Is that fire real? *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                          <div class="col-md-12">
+                              <input type="submit" class="btn btn-success btn-send" value="Send message">
+                          </div>
+                      </div>
+                  </div>
+              </form>
+            </div>
+
+            <footer>
+                <!--contact, images/team, about, shop-->
+                This is just a footer. It has no real content yet.
+                <br>
+                Here are examples of things that might be here later:
+                <a>About</a>
+                <a>Team</a>
+                <a>Shop</a>
+                <a>Contact</a>
+            </footer>
+
+        </div>
+
+        <script src="scripts/parallax.js"></script>
+
+  </body>
+</html>
