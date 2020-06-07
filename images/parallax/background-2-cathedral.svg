@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Background-2-cathedral_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="1920px" height="1080px" viewBox="0 0 1920 1080" enable-background="new 0 0 1920 1080"
+	 xml:space="preserve">
+<g id="Main_1_">
+	<rect id="Lower_Wall_1_" x="1537" y="262" fill="#B9D1D5" width="159" height="50"/>
+	<g id="Upper_Wall_2_">
+		<rect id="Upper_Wall_3_" x="1524" y="193" fill="#CBD8E0" width="173" height="45"/>
+		<g id="Window_M_6_">
+			<g>
+				<ellipse fill="#E8E8E8" cx="1607.312" cy="219.57" rx="16.45" ry="16.365"/>
+			</g>
+			<g>
+				<ellipse fill="#C2D3D9" cx="1604.604" cy="216.861" rx="16.451" ry="16.365"/>
+			</g>
+		</g>
+		<g id="Window_R_8_">
+			<g>
+				<ellipse fill="#E8E8E8" cx="1658.929" cy="219.57" rx="16.45" ry="16.365"/>
+			</g>
+			<g>
+				<ellipse fill="#C2D3D9" cx="1656.219" cy="216.861" rx="16.45" ry="16.365"/>
+			</g>
+		</g>
+		<g id="Window_L_8_">
+			<g>
+				<ellipse fill="#E8E8E8" cx="1559.773" cy="219.57" rx="16.45" ry="16.365"/>
+			</g>
+			<g>
+				<ellipse fill="#C2D3D9" cx="1557.064" cy="216.861" rx="16.45" ry="16.365"/>
+			</g>
+		</g>
+	</g>
+	<rect id="Roof_Lower_1_" x="1523" y="238" fill="#ADC6E0" width="175" height="47"/>
+	<rect id="Roof_Upper_1_" x="1522" y="133" fill="#ADC6E0" width="199" height="60"/>
+</g>
+<g id="Tower_R_1_">
+	<ellipse fill="#DBC9C4" cx="1729.469" cy="151.851" rx="42.826" ry="8.783"/>
+	<g id="XMLID_495_">
+		<g>
+			<path fill="#ACC7E2" d="M1686.646,124.825c31.918-14.188,45.283-110.803,45.283-110.803s7.688,89.183,38.93,110.803H1686.646z"/>
+		</g>
+	</g>
+	<path fill="#F2EBE7" d="M1761,318h-66c0,0,0-150,0-162c0-11,66-11,66,0C1761,166,1761,318,1761,318z"/>
+	<path fill="#F2EBE7" d="M1771,153c0-9-85-9-85,0c0,10,0-19,0-28s85-5,85,0S1771,163,1771,153z"/>
+</g>
+<g id="Tower_L_1_">
+	<g id="Spire_L_1_">
+		<g>
+			<path fill="#C1D6E2" d="M1472.146,121.109c0,0,4.197,64.63,9.399,71.278h-23.091l-0.652-0.311
+				C1464.568,186.982,1472.146,121.109,1472.146,121.109z"/>
+		</g>
+	</g>
+	<g id="Spire_R_1_">
+		<g>
+			<path fill="#ADC6E0" d="M1520.592,102.53c0.027,2.188,0.041,4.337,0.041,6.418C1520.578,106.76,1520.564,104.625,1520.592,102.53
+				z"/>
+			<path fill="#ADC6E0" d="M1504.972,192.551c7.62-15.972,15.539-37.768,15.661-83.332c0.706,32.362,8.448,73.549,15.579,83.332
+				H1504.972z"/>
+		</g>
+	</g>
+	<g id="Spire_C_1_">
+		<g>
+			<polygon fill="#A9C7E1" points="1491.068,6.239 1513.778,193.388 1473.396,193.388 			"/>
+		</g>
+	</g>
+	<g id="Tower_L_Middle_1_">
+		<g>
+			<path fill="#E0E3E6" d="M1457.098,245.086c0,0,0-41.213,0-51.348c0-10.135,69.272-8.108,67.914,0v51.348H1457.098z"/>
+		</g>
+	</g>
+	<g id="Tower_L_Roof_1_">
+		<g>
+			<path fill="#ECCDBD" d="M1443.515,259.95c8.15-33.106,82.855-31.755,93.723,0H1443.515z"/>
+		</g>
+	</g>
+	<path id="Tower_L_Base_1_" fill="#DCE1E4" d="M1537,302h-93c0,0,0-37,0-42s93-6,93,0S1537,302,1537,302z"/>
+	<g id="Window_L_3_">
+		<g>
+			<rect x="1473" y="206" fill="#E8E8E8" width="7" height="22"/>
+		</g>
+		<g>
+			<rect x="1471" y="206" fill="#D1D1D0" width="6" height="22"/>
+		</g>
+	</g>
+	<g id="Window_M_2_">
+		<g>
+			<rect x="1492" y="203" fill="#E8E8E8" width="7" height="22"/>
+		</g>
+		<g>
+			<rect x="1490" y="203" fill="#D1D1D0" width="6" height="22"/>
+		</g>
+	</g>
+	<g id="Window_R_3_">
+		<g>
+			<rect x="1509" y="206" fill="#E8E8E8" width="6" height="22"/>
+		</g>
+		<g>
+			<rect x="1506" y="206" fill="#D1D1D0" width="7" height="22"/>
+		</g>
+	</g>
+</g>
+<g id="Tower_Main_1_">
+	<g id="XMLID_494_">
+		<g>
+			<polygon fill="#A0BDDC" points="1611.778,98.435 1620.091,19.265 1627.031,98.624 			"/>
+		</g>
+	</g>
+	<path fill="#ADC6E0" d="M1621,158.607l-14-25.336c0,0,0-50.271,0-41.271c0,10,14,8,14,0C1621,86,1621,158.607,1621,158.607z"/>
+	<path fill="#A2C0D8" d="M1621,158.607l12-25.336c0,0,0-50.271,0-41.271c0,10-12,8-12,0C1621,86,1621,158.607,1621,158.607z"/>
+</g>
+<path id="Hill_1_" fill="#E7EAED" d="M1.707,1169.344V389.806h0.679l1538.339-127.694c173.166,18.242,260.775-28.376,279.112-26.349
+	c12.808-1.973,115.874,75.346,120.628,78.927l-0.503,0.662v854.667H1.707V1169.344z"/>
+</svg>

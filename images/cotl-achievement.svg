@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%"
+	 height="100%" viewBox="0 0 600 800" enable-background="new 0 0 600 800" xml:space="preserve">
+<g id="Rulers">
+</g>
+<g id="Shield">
+	<path id="Outer" fill="none" stroke="#000000" stroke-width="8" stroke-miterlimit="10" d="M454,185H134c0,278,0,278,160,419
+		C454,463,454,463,454,185z"/>
+	<path id="Inner" fill="none" stroke="#000000" stroke-width="8" stroke-miterlimit="10" d="M441.478,199H147.19
+		c0,255.05,0,255.662,147.144,385.333C441.478,454.662,441.478,454.05,441.478,199z"/>
+	<polyline fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" points="358.107,526.773 294.334,463 
+		230.561,526.773 	"/>
+	<g id="Chevron">
+		<polyline fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" points="341.466,542.353 294,494.887 
+			246.896,541.991 		"/>
+	</g>
+	<g id="Chief">
+		<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="148" y1="324" x2="440" y2="324"/>
+		<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="234" y1="324" x2="234" y2="199"/>
+		<path fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" d="M354.335,324l0.666-125L354.335,324z"/>
+	</g>
+	<g id="XMLID_1_">
+		<g>
+			<path d="M240.38,295.38c1.68,0.48,4.52,0.89,3.73,1.42c-2.04,1.35-6.46,5.27-6.74,5.52C238.1,300.01,239.11,297.7,240.38,295.38z
+				"/>
+			<path d="M249.08,283.25c2.92,3.21,7.17,2.5,4.61,4.56c-2.77,2.23-1,2.81-8.15-0.28C246.64,286.1,247.82,284.67,249.08,283.25z"/>
+			<path d="M349.32,220.01c-0.931,0.68-60.49,44.3-91.63,64.05c-2.57,1.63-5.35-0.8-7.49-2.06
+				C271.18,259.05,311.89,236.6,349.32,220.01z"/>
+		</g>
+		<g>
+			<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M237.36,302.33c0,0,0,0,0.01-0.01c0.28-0.25,4.7-4.17,6.74-5.52
+				c0.79-0.53-2.05-0.94-3.73-1.42"/>
+			<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M249.08,283.25c-1.26,1.42-2.44,2.85-3.54,4.28
+				c-2.01,2.62-3.75,5.24-5.16,7.85c-1.27,2.32-2.28,4.63-3.01,6.94"/>
+			<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M349.33,220c0,0,0,0-0.01,0.01
+				C311.89,236.6,271.18,259.05,250.2,282c-0.27,0.29-0.53,0.58-0.79,0.88"/>
+			<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M249.41,282.88l0.78-0.88h0.01c2.14,1.26,4.92,3.69,7.49,2.06
+				c31.14-19.75,90.7-63.37,91.63-64.05"/>
+			<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M249.41,282.88c-0.11,0.12-0.22,0.24-0.33,0.37"/>
+			<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M245.54,287.53c7.15,3.09,5.38,2.51,8.15,0.28
+				c2.56-2.06-1.69-1.35-4.61-4.56"/>
+		</g>
+	</g>
+	<path id="Shield_Chief_Sinister" fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" d="M419.025,234.506
+		c0,36.78-0.02,36.8-21.88,55.38c-21.101-18.58-21.12-18.26-21.12-55.38C376.025,234.506,397.146,231.376,419.025,234.506z"/>
+	<path id="Shield_Chief_Dexter" fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" d="M212.127,234.068
+		c0.759,36.772,0.74,36.792-20.732,55.82c-21.479-18.141-21.493-17.82-22.258-54.933
+		C169.137,234.955,190.188,231.39,212.127,234.068z"/>
+	<g id="Roundels">
+		<circle fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="242.019" cy="446.484" r="16.708"/>
+		<circle fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="292.763" cy="394.501" r="16.709"/>
+		<circle fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="345.983" cy="446.484" r="16.708"/>
+	</g>
+</g>
+</svg>
